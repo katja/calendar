@@ -1,4 +1,8 @@
 Calendar::Application.routes.draw do
+  resources :groups
+
+  resources :people
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
