@@ -14,5 +14,23 @@
 /log/*.log
 /tmp
 
-# Ignore default Readme of rails
+# Ignore default Readme of Rails
 README.rdoc
+
+# Default from github for Rails:
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
